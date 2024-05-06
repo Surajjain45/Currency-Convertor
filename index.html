@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2c04495fe2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="box">
+        
+          <!-- <span class="animate"></span> -->
+        
+   <div class="container">
+  
+    
+    <heading>Currency converter</heading>
+
+    <!-- <label for="input_no">for</label> -->
+
+    <div class="input">
+    <div class="input_des">Enter Amount</div>
+    <input type="number" class="input_no" value="1">
+    <p class="error">Please enter some amount</p>
+</div>
+    
+
+    <div class="input_currency_box">
+        <div class="from">
+            <div class="from_des">From</div>
+       
+            <div class="select_box">
+                <img class="flag_img" src="https://flagcdn.com/48x36/us.png" alt="flag">
+            <select class="currencies" value="currencies">
+                <option value="USD">USD</option> 
+            </select>
+        </div>
+    </div>
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+        <div class="to">
+            <div class="to_des">To</div>
+            <div class="select_box">
+            <img class="flag_img" src="https://flagcdn.com/48x36/in.png" alt="flag">
+            <select class="currencies" value="USD">   
+                <option >INR</option> 
+            </select>
+        </div>
+    </div>
+</div>
+
+    <div class="output">
+        1 USD = 82.1732 INR
+    </div>
+
+    <button class="get_rate">Get exchange rate</button>
+
+
+    
+   </div>
+</div>
+
+  <script src="country-list.js"></script>
+  <script src="script.js"></script>
+    
+</body>
+</html>
